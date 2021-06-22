@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-image: url("../images/bg3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Baloo 2", sans-serif;
+
+}
+
+main {
+    width: 90%;
+    height: 80%;
+    margin: 5% auto;
+    background-color: rgba(255, 255, 255, 0.185);
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+main nav {
+    /* background-color: rgba(19, 28, 58, 0.705); */
+    /* background-color: rgba(24, 36, 71, 0.959); */
+    /* background-color: rgba(232, 48, 162, 0.664); */
+    box-sizing: border-box;
+    color: white;
+    font-size: 1vw;
+}
+
+main nav .navHeader {
+    height: 5rem;
+    width: 100%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    /* background-color: rgba(24, 36, 71, 0.788); */
+    /* background-color: rgba(232, 48, 162, 0.664); */
+    margin-bottom: 1rem;
+}
+
+.navHeader img{
+    width: 60%;
+}
+
+
+
+nav .navBody,
+.navFooter {
+    padding: 0 10%;
+}
+
+nav .navBody {
+    margin-bottom: 4rem;
+}
+
+nav .navBody ul li {
+    list-style: none;
+    padding: 12% 0 12% 1.5rem;
+
+    /* cursor: pointer; */
+    /* border-bottom: gray dashed 1px; */
+}
+
+nav .navBody ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav .navBody ul li:hover {
+    background-color: rgba(0, 0, 0, 0.329);
+}
+
+nav .navBody ul li a:hover {
+    color: black;
+
+}
+
+
+.navFooter i {
+    font-size: 2rem;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    color: white;
+}
+
+.navFooter i:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.dashboard .dashBody {
+    position: relative;
+    width: 100%;
+}
+
+.dashboard .dashHeader {
+    height: 5rem;
+    width: 100%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    /* background-color: rgba(24, 36, 71, 0.959); */
+    /* background-color: rgba(232, 48, 162, 0.664); */
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+.red{
+    background-color: rgba(255, 0, 0, 0.7);
+}
+
+.orange{
+    background-color: rgba(255, 166, 0, 0.7);
+}
+
+.green{
+    background-color: rgba(0, 128, 0, 0.7);
+}
