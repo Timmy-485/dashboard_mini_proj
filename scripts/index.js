@@ -4,7 +4,7 @@ let innit = () => {
                 itemName: "RAZOR BLADE 14",
                 description: "14 INCH GAMING LAPTOP",
                 category: "HARDWARE",
-                quantity: 10
+                quantity: 21.
             },
             {
                 itemName: "BLACK DESERT ONLINE",

@@ -31,9 +31,6 @@ main {
 }
 
 main nav {
-    /* background-color: rgba(19, 28, 58, 0.705); */
-    /* background-color: rgba(24, 36, 71, 0.959); */
-    /* background-color: rgba(232, 48, 162, 0.664); */
     box-sizing: border-box;
     color: white;
     font-size: 1vw;
@@ -44,12 +41,10 @@ main nav .navHeader {
     width: 100%;
     padding: 0 5%;
     box-sizing: border-box;
-    /* background-color: rgba(24, 36, 71, 0.788); */
-    /* background-color: rgba(232, 48, 162, 0.664); */
     margin-bottom: 1rem;
 }
 
-.navHeader img{
+.navHeader img {
     width: 60%;
 }
 
@@ -67,9 +62,6 @@ nav .navBody {
 nav .navBody ul li {
     list-style: none;
     padding: 12% 0 12% 1.5rem;
-
-    /* cursor: pointer; */
-    /* border-bottom: gray dashed 1px; */
 }
 
 nav .navBody ul li a {
@@ -98,36 +90,54 @@ nav .navBody ul li a:hover {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.dashboard .dashBody {
-    position: relative;
-    width: 100%;
-}
 
-.dashboard .dashHeader {
-    height: 5rem;
+.dashboard .dashHeaderIndex {
+    height: 20%;
     width: 100%;
     padding: 0 5%;
     box-sizing: border-box;
-    /* background-color: rgba(24, 36, 71, 0.959); */
-    /* background-color: rgba(232, 48, 162, 0.664); */
     margin-bottom: 1rem;
 }
 
+.dashboard .dashBodyIndex {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    overflow-y: auto;
+    padding: 0 5%;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    color: white;
+    font-family: "Baloo 2", sans-serif;
+}
+
+table thead {
+    text-align: left;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+
+tr:hover {
+    background-color: #f5f5f552;
+    color: black;
+}
 
 
-
-
-
-
-
-.red{
+.red {
     background-color: rgba(255, 0, 0, 0.7);
 }
 
-.orange{
+.orange {
     background-color: rgba(255, 166, 0, 0.7);
 }
 
-.green{
+.green {
     background-color: rgba(0, 128, 0, 0.7);
 }
