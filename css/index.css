@@ -9,9 +9,11 @@ body {
     height: 100%;
     overflow-x: hidden;
     background-image: url("../images/bg3.jpg");
+    background-image: url("../images/black1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     font-family: "Baloo 2", sans-serif;
+    color: white;
 
 }
 
@@ -19,7 +21,7 @@ main {
     width: 90%;
     height: 80%;
     margin: 5% auto;
-    background-color: rgba(255, 255, 255, 0.185);
+    background-color: rgba(0, 0, 0, 0.185);
     display: grid;
     grid-template-columns: 1fr 4fr;
     box-sizing: border-box;
@@ -73,11 +75,6 @@ nav .navBody ul li:hover {
     background-color: rgba(0, 0, 0, 0.329);
 }
 
-nav .navBody ul li a:hover {
-    color: black;
-
-}
-
 
 .navFooter i {
     font-size: 2rem;
@@ -97,6 +94,22 @@ nav .navBody ul li a:hover {
     padding: 0 5%;
     box-sizing: border-box;
     margin-bottom: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.dashboard .dashHeaderIndex div{
+    /* display: inline-block; */
+    font-size: 1.2rem;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.315);
+}
+
+.dashboard .dashHeaderIndex div p, span{
+    height: 50%;
+    box-sizing: border-box;
+    padding: 1.5rem 1rem 1rem 1rem ;
 }
 
 .dashboard .dashBodyIndex {
